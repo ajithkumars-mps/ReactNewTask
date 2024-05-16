@@ -13,11 +13,6 @@
   }
 }
 
-:root {
-  --primary-color: rgba(69, 18, 132, 0.695);
-  --primary-mobile-color: rgb(69, 18, 132);
-}
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -31,20 +26,6 @@
 
 .App-link {
   color: #61dafb;
-}
-.splitScreen{
-  display: grid;
-  grid-template-columns: 15% 85%;
-}
-.pageContainer{
-  height: 100vh;
-  display: grid;
-  grid-template-rows: 12% 88%;
-}
-.verticalAlign{
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 @keyframes App-logo-spin {
