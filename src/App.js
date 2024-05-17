@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes, Redirect } from 'react-router-dom';
+import { BrowserRouter, Route, Routes, Redirect, HashRouter } from 'react-router-dom';
 import './App.css';
 import Login from './Pages/Login/Login';
 import Home from './Pages/Home/Home';
@@ -17,14 +17,14 @@ function App() {
     //   }}
     // />
     }
-      <BrowserRouter>
+      <HashRouter>
         <Routes>
           <Route path='/' element={<Login/>} />
           <Route path='/home' element={<Home/>} />
           <Route path='/dashboard' element={<Dashboard/>} />
           <Route path='/registration' element={<Registration/>} />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </>
   );
 }
